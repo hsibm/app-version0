@@ -1,22 +1,15 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import Demo from './demo';
 
 
 class TableHeadVideo extends React.Component { 
-render() {
+  render() {
  
-return (<tbody>
-<table border="2" width="40%">
-<tr >
-<td colSpan="1" rowSpan="1"> 1 </td>
-<td colSpan="5" rowSpan="1">  </td>
-</tr>
-<tr >
-<td colSpan="1" rowSpan="1"> <img width='30' height='30' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhrcdyfxQY4gHhOBtU0ifCMnt9M59hWcrySGaXsXWKHM7a1xOibw"/> </td>
-<td colSpan="1" rowSpan="1" > <center> <input  type="text" name="query" required value='' /></center>  </td>
-</tr>
-</table>
-</tbody>
-);
+return (<div>  <Demo /> 
+   
+    </div>
+)
 }
 }
 
