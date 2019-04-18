@@ -23,15 +23,21 @@ render() {
 
  
 return (
-    <tbody>    
-<div>
-    <table>
-<TableHeadVideo />
-<tbody> {listVideos} </tbody>
+      
+
   
- </table> 
+<div> 
+   <div >
+   <TableHeadVideo />   
+    </div>
+   
+   <div >
+   {listVideos} 
+   </div> 
 </div>
-</tbody>
+
+
+
 )
 
 }
